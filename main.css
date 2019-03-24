@@ -10,7 +10,12 @@ li {
 ul li p {
   padding: 15%;
   margin: 0;
+  background-color: #fff;
+  transition: background-color 1000ms;
 }
-.red {
-  background-color: red;
+.grey {
+  background-color: #333;
+  transition: background-color 1000ms;
 }
+
+/* can't run on value red, must be a hex number */
